@@ -11,9 +11,8 @@ class UserFirstSpider(scrapy.Spider):
     allowed_domains = ['instagram.com']
     start_urls = ['https://www.instagram.com']
     inst_login_link = 'https://www.instagram.com/accounts/login/ajax/'
-    inst_login = 'ijrevol'
-    #inst_password = '#PWD_INSTAGRAM_BROWSER:10:1660366705:AexQAFMv3tePEQ0IgMG7ggLqtvqq+kByrfI26pqZmGirM1lEP4jKhjV8Bv5Mtg0Hd8rPA0FGBwamhIoqSej9+jDmFS3qpvzltcgqyHwYkVit+Ifpqt90dDFHeQt+Ho6T+8FzitmiZyDseET57nD4cG8='
-    inst_password = '#PWD_INSTAGRAM_BROWSER:10:1660734466:AYlQADcXK5KxZtmqCq6spOkzvLyVVjTDKH10mQh4h6YYjlhql0iAR+xC94FvaJ5UMbhd/BrrQw3LrkipUFhVLf/MgyKzC4l6QymrMy9lo+a3AhKOIPvCs4hyNt9f2gUN0VkkBHz96i70+ZHrc3Qb8PE='
+    inst_login = ''
+    inst_password = ''
     user = 'python_code9.py' #'data_science_learn'
     user_id = '53735532112'#'17616713688'
     inst_graphql_link = 'https://www.instagram.com/graphql/query/?'
